@@ -114,7 +114,7 @@ html, body{
 }
 
 #contents h2{
-    border-left: 10px solid #483d8b;
+    
     border-bottom: 1px solid #483d8b;
     font-weight: bold;
     line-height: 1;
@@ -123,12 +123,14 @@ html, body{
     color: #483d8b;
     font-size: 108%;
 }
-#contents p{
+#contents  p{
     letter-spacing: 0.1em;
     line-height: 1.7em;
     /* font-size: 90%; */
     margin: 20px 10px 0;
 }
+
+
 
 .list1 li {
     margin: 5px 30px;
@@ -142,4 +144,35 @@ html, body{
     letter-spacing: 0.1em;
     line-height: 1.7em;
     list-style: decimal;
+}
+
+/* chair-Introduction */
+.chair-Introduction {
+    width: 860px;
+    padding-bottom: 20px;
+    float: left;
+}
+.chair-Introduction .picture {
+    margin: 20px auto 0;
+    width: 200px;
+    height: 280px;
+    float: left; 
+    text-align: center;
+}
+.chair-Introduction .picture img {
+    width: 170px;
+    height: 220px;
+}
+.chair-Introduction .picture .name {
+    font-weight: 600;
+    margin: 20px auto;
+}
+.chair-Introduction .detail{
+    float: right;
+    width: 650px;
+}
+.chair-Introduction .dividing-line {
+    width: 860px;
+    height: 1px;
+    background-color: #d2d2d4;
 }
