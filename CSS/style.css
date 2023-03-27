@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    font-size: 100%;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+    background: #eeeded;
+}
+
+#wrapper {
+    margin: 20px auto;
+    border: 1px solid #CECFCE;
+
+    width: 900px;
+    height: auto;
+    background-color: #fff;
+}
+
+#banner_img {
+    margin: 20px auto 0;
+    width: 860px;
+    height: 300px;
+    background: url(Images/banner.jpg) no-repeat;
+    background-size: cover;
+} 
+#banner_img h1{
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* logo */
+.logo {
+    display: inline-block;
+    margin: 20px 20px;
+    width: 130px;
+    height: 50px;
+}
+.logo a {
+    float: left;
+    width: 130px;
+    font-size: 21.6px;
+    text-decoration: none;
+    line-height: 50px;
+}
+.logo a .logo_span1 {
+    
+    font-size: 2em;
+    color: #ef543b;
+    text-shadow: 0px 3px 1px #d93920;
+    letter-spacing: 5px;
+}
+
+.logo a .logo_span2 {
+    
+    color: #ef543b;
+    font-size: 1.1em;
+    text-shadow: 0px 0px 1px #d93920;
+    letter-spacing: 5px;
+}
+
+.logo a .logo_span3 {
+    color: #212121;
+    letter-spacing: 5px;
+}
+/* END logo */
+
+/* menu */
+.menu {
+    margin-top: 20px;
+    margin-right: 10px; 
+    width: 700px;
+    height: 50px;
+    float: right;
+} 
+
+
+.menu li {
+    float: left;
+    line-height: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    width: 116px;
+    height: 50px;
+    font-size: 1em; 
+    color: #212121;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 50px;
+}
+.menu .active a{
+    color: #ef543b;
+    border:2px solid #ef543b;
+}
+.menu li a:hover {
+    background-color: #CECFCE;
+}
+/* End menu */
+
+
+/* contents */
+#contents {
+    width: 860px;
+    margin: 20px auto;
+}
+
+#contents h2{
+    border-left: 10px solid #483d8b;
+    border-bottom: 1px solid #483d8b;
+    font-weight: bold;
+    line-height: 1;
+    padding: 2px 0 4px 10px;
+    margin-top: 30px;
+    color: #483d8b;
+    font-size: 108%;
+}
+#contents p{
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
+    /* font-size: 90%; */
+    margin: 20px 10px 0;
+}
+
+.list1 li {
+    margin: 5px 30px;
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
+    list-style: circle;
+}
+
+.list2 li {
+    margin: 8px 30px;
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
+    list-style: decimal;
+}
