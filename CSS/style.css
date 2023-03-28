@@ -29,8 +29,13 @@ html, body{
     background-size: cover;
 } 
 #banner_img h1{
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 24px;
+    text-align: center;
+}
+#banner_img h2{
+    margin: 5px 0;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -153,7 +158,7 @@ html, body{
     float: left;
 }
 .chair-Introduction .picture {
-    margin: 20px auto 0;
+    margin: 30px auto 0;
     width: 200px;
     height: 280px;
     float: left; 
@@ -165,7 +170,7 @@ html, body{
 }
 .chair-Introduction .picture .name {
     font-weight: 600;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 .chair-Introduction .detail{
     float: right;
