@@ -16,15 +16,15 @@ html, body{
     margin: 20px auto;
     border: 1px solid #CECFCE;
 
-    width: 900px;
+    width: 1200px;
     height: auto;
     background-color: #fff;
 }
 
 #banner_img {
     margin: 20px auto 0;
-    width: 860px;
-    height: 300px;
+    width: 1150px;
+    height: 450px;
     background: url(Images/banner.jpg) no-repeat;
     background-size: cover;
 } 
@@ -42,7 +42,7 @@ html, body{
 /* logo */
 .logo {
     display: inline-block;
-    margin: 20px 20px;
+    margin: 20px 25px;
     width: 130px;
     height: 50px;
 }
@@ -78,7 +78,7 @@ html, body{
 /* menu */
 .menu {
     margin-top: 20px;
-    margin-right: 10px; 
+    margin-right: 20px; 
     width: 700px;
     height: 50px;
     float: right;
@@ -114,7 +114,7 @@ html, body{
 
 /* contents */
 #contents {
-    width: 860px;
+    width: 1150px;
     margin: 20px auto;
 }
 
@@ -128,15 +128,7 @@ html, body{
     color: #483d8b;
     font-size: 108%;
 }
-#contents h3{
-    border-left: 5px solid #483d8b;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-left: 10px;
-    padding-left: 10px;
-    color: #483d8b;
-    font-size: 103%;
-}
+
 #contents  p{
     letter-spacing: 0.1em;
     line-height: 1.7em;
@@ -162,13 +154,13 @@ html, body{
 
 /* chair-Introduction */
 .chair-Introduction {
-    width: 860px;
-    padding-bottom: 20px;
-    float: left;
+    width: 1150px;
+    height: 600px;
+    margin-bottom: 20px;
 }
 .chair-Introduction .picture {
     margin: 30px auto 0;
-    width: 200px;
+    width: 300px;
     height: 280px;
     float: left; 
     text-align: center;
@@ -183,10 +175,12 @@ html, body{
 }
 .chair-Introduction .detail{
     float: right;
-    width: 650px;
+    width: 850px;
+    padding-top: 20px
 }
 .chair-Introduction .dividing-line {
-    width: 860px;
+    width: 1150px;
     height: 1px;
     background-color: #d2d2d4;
+    float: left;
 }
