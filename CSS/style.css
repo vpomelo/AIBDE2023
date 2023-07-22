@@ -6,8 +6,8 @@
 
 
 html, body{
-    font-size: 100%;
 	font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
 	margin: 0;
     background: #eeeded;
 }
@@ -15,39 +15,39 @@ html, body{
 #wrapper {
     margin: 20px auto;
     border: 1px solid #CECFCE;
-    width: 60%;
+    width: 1200px;
     height: auto;
     background-color: #fff;
 }
 
 #banner_img {
     margin: 20px auto 0;
-    width: 100%;
+    width: 95%;
     height: 450px;
     background: url(Images/banner.jpg) center no-repeat;
+    background-size: cover;
 } 
 #banner_img h1{
-    padding: 5px 0;
-    font-size: 24px;
+    padding: 10px 0;
+    font-size: 1.8em;
     text-align: center;
 }
 #banner_img h2{
     margin: 5px 0;
-    font-size: 18px;
+    font-size: 1.5em;
     text-align: center;
 }
 
 /* logo */
 .logo {
     display: inline-block;
-    margin: 20px 25px;
-    width: 130px;
+    margin: 20px 2.5%;
+    width: 150px;
     height: 50px;
 }
 .logo a {
-    float: left;
     width: 130px;
-    font-size: 21.6px;
+    font-size: 1.2em;
     text-decoration: none;
     line-height: 50px;
 }
@@ -76,8 +76,8 @@ html, body{
 /* menu */
 .menu {
     margin-top: 20px;
-    margin-right: 20px; 
-    width: 700px;
+    margin-right: 2.5%; 
+    width: 900px;
     height: 50px;
     float: right;
 } 
@@ -92,9 +92,9 @@ html, body{
 
 .menu li a {
     display: inline-block;
-    width: 116px;
+    width: 150px;
     height: 50px;
-    font-size: 1em; 
+    font-size: 1.1em; 
     color: #212121;
     font-weight: 600;
     text-decoration: none;
@@ -112,8 +112,8 @@ html, body{
 
 /* contents */
 #contents {
-    width: 1150px;
-    margin: 20px auto;
+    width: 95%;
+    margin: 0 auto 20px;
 }
 
 #contents h2{
@@ -122,7 +122,7 @@ html, body{
     font-weight: bold;
     line-height: 1;
     padding: 2px 0 4px 10px;
-    margin-top: 30px;
+    margin-top: 20px;
     color: #483d8b;
     font-size: 108%;
 }
@@ -152,14 +152,14 @@ html, body{
 
 /* chair-Introduction */
 .chair-Introduction {
-    width: 1150px;
-    height: 600px;
+    width: 95%;
+    height: 300px;
     margin-bottom: 20px;
 }
 .chair-Introduction .picture {
     margin: 30px auto 0;
-    width: 300px;
-    height: 280px;
+    width: 20%;
+    height: auto;
     float: left; 
     text-align: center;
 }
@@ -173,11 +173,11 @@ html, body{
 }
 .chair-Introduction .detail{
     float: right;
-    width: 850px;
-    padding-top: 20px
+    width: 75%;
+    padding-top: 10px
 }
-.chair-Introduction .dividing-line {
-    width: 1150px;
+.dividing-line {
+    width: 95%;
     height: 1px;
     background-color: #d2d2d4;
     float: left;
